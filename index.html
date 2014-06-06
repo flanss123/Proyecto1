@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>restaurantes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="Style/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="Style/Custom.css" rel="stylesheet" media="screen">
+    <script src="Style/js/jquery.js"></script>
+<script src="Style/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            //interval: 3000
+        });
+    });
+</script>
+  </head>
+  <body>
+
+     
+<!-- Encabezado !-->
+
+     <div class="container ">
+    <div class="row" id="encabezado">
+      <div class="col-xs-12">
+        <h1 align="center">Restaurantes</h1>
+      </div>
+    </div>   
+    <div align="center" id="borde" class="col-xs-offset-8 col-xs-4">
+      <input class="btn btn-default" type="button" value="Ingresar">
+      <input  align="center" class="btn btn-default" type="button" value="Crear una cuenta">
+    </div>
+  </div>
+
+<!-- Encabezado !-->
+
+<div class="container" >
+<!-- carousel !-->
+<div class="row" align="center">
+<div id="myCarousel" class="carousel slide" >
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner" align="center">
+        <div class="active item"><a href="restaurante.html"><img src="logo.jpg" alt="banner1" /></a></div>
+        <div class="item"><img  src="logo2.jpg" alt="banner2" /></div>
+        <div class="item"><img  src="logo3.jpg" alt="banner3" /></div>
+        <div class="item"><img  src="logo4.jpg" alt="banner4" /></div>
+        <div class="item"><img  src="logo5.jpg" alt="banner5" /></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+</div>
+</div>  
+<!-- caurosel !-->
+
+<!-- Pie !-->
+<div class="container" id="borde">
+
+   <div class="row" id="pie">
+        <div align="center" class="col-md-12">
+      <label >6j first team contact: restaurant_85 @restaurant.com</label>
+            
+        </div>
+      </div>
+</div>
+<!-- Pie !-->
+
+<!-- tooooodo !-->
+   </body>
+</html>

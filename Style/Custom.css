@@ -1,0 +1,37 @@
+<style type="text/css">
+.header {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+#myCarousel{
+ width: 50%;
+}
+.container{
+  background-color: orange;
+}
+#LoginFont{
+  background-color: orange;
+}
+#encabezado.row {
+background-color: black;
+}
+#pie.row {
+background-color: black;
+}
+#busqueda label {
+display: none;
+}
+h1, label{
+ color: white;
+}
+#borde{
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+</style>
